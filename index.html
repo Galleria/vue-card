@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="js/vue/vue.min.js"></script>
+<script type="text/javascript" src="js/jquery/jquery-1.12.1.min.js"></script>
+<script type="text/javascript" src="js/materialize/materialize.min.js"></script>
+<link rel="stylesheet" href="css/materialize.min.css">
+<link rel="stylesheet" href="font/material-design-icons/Material Icons.css">
+<!-- <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+<style type="text/css">
+
+#page-footer {
+	padding-top: 0;
+}
+
+#vueCard{
+ 	margin: 5px
+ } 
+ 
+main {
+    flex: 1 0 auto;
+  }
+
+.page-flexbox-wrapper{
+	  display: flex;
+	  min-height: 100vh;
+	  flex-direction: column;
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body >
+
+<div class="page-flexbox-wrapper">
+
+	<head>
+	
+	</head>
+	
+	<main>
+		<div id="vueCard" ></div>
+		<div id="vuePaging"></div>
+	</main>
+	
+	<footer id="page-footer" class="page-footer">
+		<div id="vueFooter" ></div>
+	</footer>
+</div>
+
+<script type="text/javascript" src="js/app/vue-Data.js"></script>
+<script type="text/javascript" src="js/app/vue-Card.js"></script>
+<script type="text/javascript" src="js/app/vue-Paging.js"></script>
+<script type="text/javascript" src="js/app/vue-Footer.js"></script>
+
+
+</body>
+</html>
